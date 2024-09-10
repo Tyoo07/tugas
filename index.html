@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #0e7cd6;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+  background-image:url(1.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #3d3d3d;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1eeee;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>My Website Thyo ap</h1>
+  <p>Resize the browser window to see the effect.</p>
+</div>
+
+<div class="topnav">
+  <a href="https://www.youtube.com/youtube">yt</a>
+  <a href="https://github.com/">github</a>
+  <a href="https://open.spotify.com/intl-id">spotify</a>
+  <a href="https://www.instagram.com/?hl=en" style="float:right">instagram</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Islandia</h2>
+      <h5>Islandia, Negeri Mungil di Utara yang Berdampak Besar pada Dunia
+      </h5>
+      <div class="fakeimg" style="height:200px;"><img src="c:\Users\THYO ANGGUN PRATAMA\Pictures\wp5101651.webp" alt=""  height="250"  width="300"></div>
+      <p>fakta menarik tentang islandia..</p>
+      <p>Islandia merupakan negara yang terletak di Eropa Utara. Negara tersebut masuk dalam negara skandinavia bersama dengan Swedia, Norwegia, Finlandia, dan Denmark. Negara Islandia merupakan salah satu negara paling dingin di dunia yang berjarak sekitar 300 kilometer dari Greendland.Islandia adalah negara yang makmur dengan tingkat keamanan yang tinggi. Negara tersebut juga negara yang ramah untuk orang asing.Negara ini juga terkenal dengan berbagai teknologi canggih dan tersedianya fasilitas yang lengkap. Berikut sepuluh fakta Islandia, negara modern yang masih mempercayai makhluk gaib.".
+        
+     .</p>
+    </div>
+    <div class="card">
+      <h2>GUNUNG KRAFLA</h2>
+      <h5>BERADA DI KETINGGIAN 4500MDPL</h5>
+      <div class="fakeimg" style="height:200px;"><img src="c:\Users\THYO ANGGUN PRATAMA\Pictures\northern-lights-mount-kirkjufell-iceland-shutterstock_536321737.jpg" alt=""  height="250" widht="250"></div>
+      <p>..</p>
+      <p>BERIKUT CONTOH 1,Gunung yang berada di negara islandia,Gunung tesebut memiliki nuansa pemandangan.yang begitu indah. dan gunung ini merupakan salah satu gungung yang aktif sampai sekarang</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>profil saya</h2>
+      <div class="fakeimg" style="height:100px;"><Img src="C:\Users\THYO ANGGUN PRATAMA\Documents\tugas\02-css\IMG_20240501_155138.jpg" alt=""  height="150"  width="150"></div>
+      <p>I am tyoo,perbanyak lah waktu kebersamaan sebelum nanti ke jalan nya masing-masing..</p>
+    </div>
+    <div class="card">
+      <h3>fakta menarik tentang terkini</h3>
+      <div class="fakeimg"><p><img src="C:\Users\THYO ANGGUN PRATAMA\Pictures\th.jpeg"alt=""  height="150" width="150"></p></div>
+      <div class="fakeimg"><p> berikut salah satu contoh gambar,di samping</p></div>
+      <div class="fakeimg"><p>di samping merupakan monumen kapal yang terbuat dari tulang-tulang dari hewan purba,tulang tersebut telah di perkirakan sejak zaman batuu </p></div>
+    </div>
+    <div class="card">
+      <h3>acta non verba</h3>
+      <p>tidak ada ilmu sihir yg bisa ngalahin doa ibu.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+  float: right;
+}
+</style>
+</head>
+<body>
+
+<h2>Float Right</h2>
+
+<p>sejarah kalijati.</p>
+
+<p><img src="c:\Users\THYO ANGGUN PRATAMA\Pictures\1-lanud-suryadarma.jpg" alt="Pineapple" style="width:170px;height:170px;margin-left:15px;">
+    Perjanjian Kalijati merupakan hasil perundingan antara pihak Jepang dan Belanda yang ditandatangani tanggal 8 Maret 1942 di Kalijati, Subang, Jawa Barat. Isi Perundingan Kalijati mengawali sejarah berakhirnya era pemerintah kolonial Belanda di Indonesia, digantikan oleh pendudukan militer Jepang.
+
+    .</p>
+
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+<h1>berikut merupakan peralatan tni au</h1>
+
+<div class="flex-container">
+  <div><img src="C:\Users\THYO ANGGUN PRATAMA\Pictures\PESAWAT (2).jpeg" alt="" height="120" width="100"></div>
+  <div><img src="C:\Users\THYO ANGGUN PRATAMA\Pictures\th (2).jpeg" alt="" height="120" width="100"></div>
+  <div><img src="C:\Users\THYO ANGGUN PRATAMA\Pictures\th (3).jpeg" alt="" height="120" width="100"></div>  
+  <div><img src="C:\Users\THYO ANGGUN PRATAMA\Pictures\th (4).jpeg" alt="" height="120" width="100"></div>
+  <div><img src="C:\Users\THYO ANGGUN PRATAMA\Pictures\th (7).jpeg" alt="" height="120" width="100"></div>
+  <div><img src="C:\Users\THYO ANGGUN PRATAMA\Pictures\th (5).jpeg" alt="" height="120" width="100"></div>  
+  <div><img src="C:\Users\THYO ANGGUN PRATAMA\Pictures\th (6).jpeg" alt="" height="120" width="100"></div>
+  <div><img src="C:\Users\THYO ANGGUN PRATAMA\Pictures\th (8).jpeg" alt="" height="120" width="100"></div>
+</div>
+
+<p>Try to resize the browser window.</p>
+<p>A container with "flex-wrap: nowrap;" will never wrap its items.</p>
+<p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 or earlier versions.</p>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>Grid Layout</h1>
+
+<p>The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning:</p>
+
+<div class="grid-container">
+  <div class="item1">THYO ANGGUN PRATAMA</div>
+  <div class="item2">17 TAHUN</div>
+  <div class="item3">08-08-2007</div>  
+  <div class="item4">KALIJATI TIMUR</div>
+  <div class="item5">HUNTING</div>
+</div>
+
+</body>
+</html>
+
+
